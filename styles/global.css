@@ -26,7 +26,7 @@
 }
 
 body{
-  overflow: hidden;
+  overflow: auto;
   font: var(--text);
   color: var(--text-secondary);
 }
@@ -48,4 +48,10 @@ img{
 }
 .flex-2{
   flex: 2;
+}
+
+@media (width >= 80em){
+  body{
+    overflow: hidden;
+  }
 }
