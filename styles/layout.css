@@ -7,7 +7,7 @@
 main{
   order: 2;
   overflow: auto;
-  padding: 4rem;
+  padding: 1.5rem;
 
   & .main-container{
     max-width: 33rem;
@@ -51,6 +51,7 @@ aside{
   }
   main{
     order: 1;
+    padding: 4rem;
   }
   aside{
     order: 2;

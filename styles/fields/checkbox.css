@@ -31,7 +31,9 @@
   }
 
   &:has(:checked){
-    background-color: aqua;
+    .checkbox-image{
+      background-image: url(../../assets/icons/checkbox-check.svg);
+    }
     
   }
 }
